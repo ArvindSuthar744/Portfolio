@@ -14,10 +14,10 @@ function AboutSection() {
                     <div className="about-head-1">
                         <img src="Images/profile-pic.png" alt="" className="about-img" />
                         <div className="links">
-                            <a href="#">Linkedin</a>
-                            <a href="#">Instagram</a>
-                            <a href="#">Github</a>
-                            <a href="#">Vercel</a>
+                            <a href="https://www.linkedin.com/in/arvind-kumar-ab48b8288">Linkedin</a>
+                            <a href="https://www.instagram.com/arvindsuthar744/">Instagram</a>
+                            <a href="https://github.com/ArvindSuthar744">Github</a>
+                            <a href="https://vercel.com/arvind-kumars-projects-2e868fe1">Vercel</a>
                         </div>
                     </div>
 

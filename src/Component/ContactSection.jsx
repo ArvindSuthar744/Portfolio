@@ -25,7 +25,7 @@ function ContactSection() {
                         <div className="contact-list-item-2">
                             <div className="contact-list">
                                 <i className="fa-brands fa-linkedin"></i>
-                                <a href="#">Arvind Kumar</a>
+                                <a href="https://www.linkedin.com/in/arvind-kumar-ab48b8288">Arvind Kumar</a>
                             </div>
                             <div className="contact-list">
                                 <i className="fa-brands fa-whatsapp"></i>
@@ -33,7 +33,7 @@ function ContactSection() {
                             </div>
                             <div className="contact-list">
                                 <i className="fa-solid fa-envelope"></i>
-                                <a href="#">arvindsuthar744@gmail.com</a>
+                                <a href="">arvindsuthar744@gmail.com</a>
                             </div>
                         </div>
                     </div>
