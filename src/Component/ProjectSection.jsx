@@ -12,32 +12,32 @@ function ProjectSection() {
                 <div className="pro-showcase">
                     
                     <div className="pro-box">
-                        <img src="Images/sample.png" alt="project" id="pro-img"/>
+                        <img src="Images/sample.png" alt="project123" id="pro-img"/>
                             <p>hello-hey</p>
                             <div className="pro-box-filter">hello</div>
                     </div>
                     <div className="pro-box">
-                        <img src="Images/sample.png" alt="project" id="pro-img"/>
+                        <img src="Images/sample.png" alt="project123" id="pro-img"/>
                             <div className="pro-box-filter">hello</div>
                             <p>hello-hey</p>
                     </div>
                     <div className="pro-box">
-                        <img src="Images/sample.png" alt="project" id="pro-img"/>
+                        <img src="Images/sample.png" alt="project123" id="pro-img"/>
                             <div className="pro-box-filter">hello</div>
                             <p>hello-hey</p>
                     </div>
                     <div className="pro-box">
-                        <img src="Images/sample.png" alt="project" id="pro-img"/>
+                        <img src="Images/sample.png" alt="project123" id="pro-img"/>
                             <div className="pro-box-filter">hello</div>
                             <p>hello-hey</p>
                     </div>
                     <div className="pro-box">
-                        <img src="Images/sample.png" alt="project" id="pro-img"/>
+                        <img src="Images/sample.png" alt="project123" id="pro-img"/>
                             <div className="pro-box-filter">hello</div>
                             <p>hello-hey</p>
                     </div>
                     <div className="pro-box">
-                        <img src="Images/sample.png" alt="project" id="pro-img"/>
+                        <img src="Images/sample.png" alt="project123" id="pro-img"/>
                             <div className="pro-box-filter">hello</div>
                             <p>hello-hey</p>
                     </div>

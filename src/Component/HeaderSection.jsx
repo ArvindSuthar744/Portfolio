@@ -30,7 +30,17 @@ function HeaderSection() {
                         <div className="heading-3-h2">
                             <h2>Arvind Kumar</h2>
                         </div>
-                    </div>
+                        <div className="links">
+                            <a href="https://www.linkedin.com/in/arvind-kumar-ab48b8288"
+                             className='all-heading-para' >Linkedin</a>
+                            <a href="https://www.instagram.com/arvindsuthar744/"
+                             className='all-heading-para' >Instagram</a>
+                            <a href="https://github.com/ArvindSuthar744"
+                             className='all-heading-para' >Github</a>
+                            <a href="https://vercel.com/arvind-kumars-projects-2e868fe1" 
+                            className='all-heading-para' >Vercel</a>
+                        </div>
+                    </div> 
                 </div>
             </section>
         </>

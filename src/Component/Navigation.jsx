@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 
 function Navigation() {
-  // const handeleNavbtn = () =>  {
-  //   var x = document.querySelector('.nav-list') ;
-  //     x.classList.remove("nav-list");
-  //     x.classList.add("nav-listadd");
-  // }
+
+  const [isNavVisible, setIsNavVisible] = useState(false);
+
+  const handleNavToggle = () => {
+    setIsNavVisible(!isNavVisible);
+  };
 
   return (
     <>
@@ -14,7 +15,7 @@ function Navigation() {
           <div className="logo-section">
             <h2 id="logo">ArvindK</h2>
           </div>
-          <ul className="nav-list">
+          <ul className={`${isNavVisible ? "nav-list-show" : "nav-list"}`}>
             <a href="#"><li>Home</li></a>
             <a href="#about" ><li>About</li></a>
             <a href="#skills" ><li>Skills</li></a>
@@ -22,7 +23,7 @@ function Navigation() {
             <a href="#contact" ><li>Contact</li></a>
           </ul>
           <div className="nav-humbar">
-            <i className="fa-solid fa-bars" ></i>
+            <i className="fa-solid fa-bars" onClick={handleNavToggle}></i>
           </div>
         </div>
       </section>

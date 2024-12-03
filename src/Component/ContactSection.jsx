@@ -1,6 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 
 function ContactSection() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_7f9tjbx', 'template_nuv9qkl', form.current, {
+                publicKey: 'DycFuMqXczdfirJKi',})
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
     return (
         <>
             <section className="contact-section" id="contact">
@@ -29,7 +49,7 @@ function ContactSection() {
                             </div>
                             <div className="contact-list">
                                 <i className="fa-brands fa-whatsapp"></i>
-                                <a href="#">M 9166042971</a>
+                                <a href="https://wa.me/9166042971">+91 9166042971</a>
                             </div>
                             <div className="contact-list">
                                 <i className="fa-solid fa-envelope"></i>
@@ -39,16 +59,21 @@ function ContactSection() {
                     </div>
 
                     <div className="contact-us-2">
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="contact-list-item-2">
                             <h2 className="get-font">Get in Touch</h2>
-                            <input type="text" id="fullname" name="fullname" placeholder="Full Name" />
-                            <input type="email" id="email" name="email" placeholder="Email" />
+                            <input type="text"
+                             id="fullname"
+                             name="user_name"
+                             placeholder="Full Name" />
+                            <input type="email" id="email" name="user_email" placeholder="Email" />
                             <textarea name="message" id="message" cols="" rows="" placeholder="Message"></textarea>
-                            <button id="submit-btn" >
-                                Send Message
-                                <i className="fa-solid fa-paper-plane"></i>
+                            <button id="submit-btn" type="submit" value="Send" >
+                            Send Message
+                            <i className="fa-solid fa-paper-plane"></i>
                             </button>
                         </div>
+                        </form>
                     </div>
                 </div>
             </section>
