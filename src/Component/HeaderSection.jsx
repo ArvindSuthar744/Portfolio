@@ -37,8 +37,6 @@ function HeaderSection() {
                              className='all-heading-para' >Instagram</a>
                             <a href="https://github.com/ArvindSuthar744"
                              className='all-heading-para' >Github</a>
-                            <a href="https://vercel.com/arvind-kumars-projects-2e868fe1" 
-                            className='all-heading-para' >Vercel</a>
                         </div>
                     </div> 
                 </div>

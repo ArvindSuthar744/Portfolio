@@ -8,6 +8,7 @@ function ProjectSection() {
                 <div className="all-heading">
                     <p className="all-heading-para" >Browse My Recent</p>
                     <h2>My PROJECTS</h2>
+                    <h4 className="all-heading-para" >Projects in Progress</h4>
                 </div>
                 <div className="pro-showcase">
                     
